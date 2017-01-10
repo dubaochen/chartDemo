@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="css/base.css" rel="stylesheet">
+    <link href="css/common_hf.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/partySpreadAnalyze.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <script src="js/jquery.min.js" ></script>
+    <script src="js/echarts.min.js"></script>
+    <script src="js/china.js"></script>
+    <script src="js/echarts-wordcloud.min.js"></script>
+</head>
+<body>
+<div class="top pr">
+    <a class="logo" href="/"></a>
+    <ul class="nav">
+        <li class="pr "><a class="" href="">人民日报专题</a></li>
+        <li class="pr "><a class="" href="">人民网微信专题</a></li>
+        <li class="pr active"><a class="" href="">五力分析</a></li>
+        <li class="pr "><a class="" href="">综艺节目分析</a></li>
+        <li class="pr "><a class="border_none" href="">工作平台</a></li>
+    </ul>
+    <a class="logout" href=""> 退出 </a>
+
+    <div class="pa nav_mask"></div>
+</div>
+
+<div class="partyHeader">
+    <!--分隔区域-->
+    <div style="height:41px;width:auto"></div>
+</div>
+
+<div class="partyTitle">
+    <div class="titleBg"></div>
+    <p>五力</p>
+</div>
+<div class="partySection" >
+    <div class="partyTopLeft">
+        <div class="title">
+            <p><i class="fa fa-comment-o"></i>话题选择</p>
+        </div>
+
+        <div class="btnDiv">
+            <select class="form-control input-lg topicSelect">
+                <option value="">王老吉</option>
+                <option value="">加多宝</option>
+                <option value="">可口可乐</option>
+            </select>
+            <button type="button" class="btn btn-danger">查询</button>
+        </div>
+
+    </div>
+    <div class="partyTopRight">
+        <div id="radarChart" style="width:100%;height:80%;">
+
+        </div>
+
+    </div>
+</div>
+
+<div class="partyTitle">
+    <div class="titleBg"></div>
+    <p>影响力</p>
+</div>
+<div class="partySection yingxiangSection" >
+    <div id="yingxiangChart" style="width:100%;height:100%;">
+
+    </div>
+</div>
+
+<div class="partyTitle">
+    <div class="titleBg"></div>
+    <p>号召力</p>
+</div>
+<div class="partySection" >
+    <div id="haozhaoChart" style="width:100%;height:100%;">
+
+    </div>
+</div>
+
+<div class="partyTitle">
+    <div class="titleBg"></div>
+    <p>传播力</p>
+</div>
+<div class="partySection chuanboSection" >
+    <div id="chuanboChart" style="width:100%;height:100%;">
+
+    </div>
+</div>
+
+<div class="partyTitle">
+    <div class="titleBg"></div>
+    <p>说明力</p>
+</div>
+<div class="partySection" >
+    <div id="shuomingChart" style="width:100%;height:100%;">
+
+    </div>
+</div>
+
+<div class="partyTitle">
+    <div class="titleBg"></div>
+    <p>公信力</p>
+</div>
+<div class="partySection" >
+    <div id="gongxinChart" style="width:100%;height:100%;">
+
+    </div>
+</div>
+
+
+</body>
+<script src="js/chartsJS.js"></script>
+</html>

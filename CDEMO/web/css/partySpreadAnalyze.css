@@ -1,0 +1,100 @@
+.partyHeader {
+    margin: 0 auto;
+    height: 41px;
+    width: 1098px;
+    font-size: 14px;
+    line-height: 41px; /*padding-bottom:10px;*/
+}
+
+.partyHeader p {
+    height: 41px;
+    width: 853px;
+    font-size: 14px;
+    line-height: 41px;
+    text-indent: 5px;
+    float: left;
+}
+
+.partyTitle {
+    margin: 0 auto;
+    height: 44px;
+    width: 1098px;
+    border: 1px solid #ebebeb;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top: none;
+    background: url(../images/hd_bg.jpg) repeat-x;
+    background-size: contain;
+}
+
+.partyTitle p {
+    height: 44px;
+    width: 200px;
+    text-indent: 3px;
+    font-size: 17px;
+    line-height: 44px;
+}
+
+.partyTitle .titleBg {
+    height: 54px;
+    width: 36px;
+    float: left;
+    margin-top: -15px;
+    background: url(../images/icon_hd.png) no-repeat;
+}
+
+.partySection {
+    width: 1098px;
+    margin: 0 auto;
+    height:300px;
+    border: 1px solid #ebebeb;
+    border-top: none;
+    margin-bottom: 23px;
+    background: white;
+    border-radius: 0 0 5px 5px;
+}
+
+.partyTopLeft{
+    width: 625px;
+    height: 300px;
+    padding-top: 35px;
+    margin-right: 27px;
+    float: left;
+}
+
+.partyTopLeft p{
+    font-size:30px;
+    text-align: center;
+}
+
+.btnDiv{
+    display:inline-block;
+    padding-top:35px;
+}
+.btnDiv .topicSelect{
+    width:300px;
+    float:left;
+    margin-left:150px;
+}
+.btnDiv button{
+    height:46px;
+    float:left;
+}
+
+
+.partyTopRight {
+    width: 425px;
+    height: 300px;
+    float: left;
+}
+
+.chuanboSection{
+    height:600px;
+
+}
+
+.yingxiangSection{
+    height:600px;
+}
+
+

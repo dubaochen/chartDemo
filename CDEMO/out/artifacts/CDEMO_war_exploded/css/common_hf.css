@@ -1,0 +1,37 @@
+.top{z-index:10;margin:25px auto 0;width:1100px;height:45px;border:solid 1px #272727;border-radius:5px;background:#353535;overflow:visible;}
+.top .logo{float:left;margin:7px 0 0 24px;width:150px;height:29px;
+    background:url(/images/logo.png) no-repeat;}
+.top .nav{float:left;margin-left:30px;height:46px;}
+.top .nav li{float:left;height:46px;}
+.top .nav li a{background:none!important;float:left;margin:15px 0 0 0; padding:0 30px;height:16px;line-height:16px;color:#a4a3a3;font-size:14px;text-decoration:none;border-right:solid 1px #a4a3a3;}
+.top .nav li a:hover{color:#fff;}
+.top .nav li.active{background:url(/images/tri.jpg) bottom center no-repeat;}
+.top .nav li.active>a{color: #fff;}
+.top .nav li:last-child{border:none;}
+.top .nav li ul{ width: 500px; top:45px; line-height: 27px; list-style-type: none; text-align:left; left:-99999px; position: absolute; z-index:20;}
+
+.top .nav li ul li{color:#fff;float:left; height:38px; line-height: 38px;display: inline-block;}
+
+.top .nav li ul li a{white-space:nowrap; vertical-align: middle;display: inline-block; text-align: center;margin:12px 0; padding:0 20px; border-left:1px solid #a0a0a0; border-right: none; color:#313131!important;font-size:14px;text-decoration:none;line-height:20px\9;}
+/*.top .nav li ul li:hover{ background: #f41527;}*/
+.top .nav li ul li:hover a{ color:#e4111f!important; }
+.top .nav li ul li:first-child a{ border: none!important;}
+
+.nav_mask{ z-index:19;display:none; background:rgba(245,245,245,0.9); border-radius:0 0 3px 3px; width:1102px; border-bottom:1px solid rgba(255,255,255,0.6); height:38px; top:46px; left: 0;}
+.ft{padding-bottom:20px;width:100%;height:50px;line-height:50px;text-align:center;color:#999;}
+
+.top .nav li .border_none{
+    border-right: none;
+}
+.top .logout{
+    float: right;
+    margin: 15px 40px 0 0;
+    height: 16px;
+    line-height: 16px;
+    color: #a4a3a3;
+    font-size: 14px;
+    text-decoration: none;
+}
+.top a.logout:hover{
+    color:#fff;
+}

@@ -1,0 +1,10 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote,dl, dt, dd, ul, ol, li,pre,button, input, textarea,th, td,img {margin: 0;padding: 0; font-family:'microsoft yahei', Arial; font-size:12px;}
+h1,h2,h3,h4,h5,h6{font-weight:normal;}
+body{background: url(/images/bg.jpg) repeat-x;}
+h1 { font-size: 18px; }
+h2 { font-size: 16px; }
+h3 { font-size: 15px; }
+h4, h5, h6 { font-size: 100%; }
+ul, ol { list-style: none; }
+a { text-decoration: none; color: #313131 }
+a:hover { text-decoration: none; }
